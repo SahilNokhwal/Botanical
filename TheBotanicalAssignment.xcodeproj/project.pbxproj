@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47E823D31CB8BFF10030C0AC /* Leaf-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 47E823D21CB8BFF10030C0AC /* Leaf-30.png */; };
+		47E823D51CB8C0080030C0AC /* Rain-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 47E823D41CB8C0080030C0AC /* Rain-30.png */; };
+		BA3FC4071CB867BC009C2AFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3FC4061CB867BC009C2AFE /* AppDelegate.swift */; };
+		BA3FC4091CB867BC009C2AFE /* RainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3FC4081CB867BC009C2AFE /* RainViewController.swift */; };
+		BA3FC40B1CB867BC009C2AFE /* FernViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3FC40A1CB867BC009C2AFE /* FernViewController.swift */; };
+		BA3FC40E1CB867BC009C2AFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3FC40C1CB867BC009C2AFE /* Main.storyboard */; };
+		BA3FC4101CB867BC009C2AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3FC40F1CB867BC009C2AFE /* Assets.xcassets */; };
+		BA3FC4131CB867BC009C2AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3FC4111CB867BC009C2AFE /* LaunchScreen.storyboard */; };
+		BA3FC41F1CB868D6009C2AFE /* FernView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3FC41E1CB868D6009C2AFE /* FernView.swift */; };
+		BA3FC4211CB86BA0009C2AFE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3FC4201CB86BA0009C2AFE /* SettingsViewController.swift */; };
+		BA3FC4251CB87D42009C2AFE /* RainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3FC4241CB87D42009C2AFE /* RainView.swift */; };
+		BA3FC4271CB88D6D009C2AFE /* FernMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3FC4261CB88D6D009C2AFE /* FernMaker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47E823D21CB8BFF10030C0AC /* Leaf-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Leaf-30.png"; sourceTree = "<group>"; };
+		47E823D41CB8C0080030C0AC /* Rain-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rain-30.png"; sourceTree = "<group>"; };
+		BA3FC4031CB867BC009C2AFE /* TheBotanicalAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheBotanicalAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3FC4061CB867BC009C2AFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA3FC4081CB867BC009C2AFE /* RainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainViewController.swift; sourceTree = "<group>"; };
+		BA3FC40A1CB867BC009C2AFE /* FernViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FernViewController.swift; sourceTree = "<group>"; };
+		BA3FC40D1CB867BC009C2AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA3FC40F1CB867BC009C2AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA3FC4121CB867BC009C2AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA3FC4141CB867BC009C2AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA3FC41E1CB868D6009C2AFE /* FernView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FernView.swift; path = ../FernView.swift; sourceTree = "<group>"; };
+		BA3FC4201CB86BA0009C2AFE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		BA3FC4241CB87D42009C2AFE /* RainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RainView.swift; path = ../RainView.swift; sourceTree = "<group>"; };
+		BA3FC4261CB88D6D009C2AFE /* FernMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FernMaker.swift; path = ../FernMaker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA3FC4001CB867BC009C2AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA3FC3FA1CB867BC009C2AFE = {
+			isa = PBXGroup;
+			children = (
+				BA3FC4051CB867BC009C2AFE /* TheBotanicalAssignment */,
+				BA3FC4041CB867BC009C2AFE /* Products */,
+				47E823D21CB8BFF10030C0AC /* Leaf-30.png */,
+				47E823D41CB8C0080030C0AC /* Rain-30.png */,
+			);
+			sourceTree = "<group>";
+		};
+		BA3FC4041CB867BC009C2AFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA3FC4031CB867BC009C2AFE /* TheBotanicalAssignment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA3FC4051CB867BC009C2AFE /* TheBotanicalAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				BA3FC41E1CB868D6009C2AFE /* FernView.swift */,
+				BA3FC4261CB88D6D009C2AFE /* FernMaker.swift */,
+				BA3FC4241CB87D42009C2AFE /* RainView.swift */,
+				BA3FC4061CB867BC009C2AFE /* AppDelegate.swift */,
+				BA3FC4081CB867BC009C2AFE /* RainViewController.swift */,
+				BA3FC40A1CB867BC009C2AFE /* FernViewController.swift */,
+				BA3FC40C1CB867BC009C2AFE /* Main.storyboard */,
+				BA3FC4201CB86BA0009C2AFE /* SettingsViewController.swift */,
+				BA3FC40F1CB867BC009C2AFE /* Assets.xcassets */,
+				BA3FC4111CB867BC009C2AFE /* LaunchScreen.storyboard */,
+				BA3FC4141CB867BC009C2AFE /* Info.plist */,
+			);
+			path = TheBotanicalAssignment;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA3FC4021CB867BC009C2AFE /* TheBotanicalAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3FC4171CB867BC009C2AFE /* Build configuration list for PBXNativeTarget "TheBotanicalAssignment" */;
+			buildPhases = (
+				BA3FC3FF1CB867BC009C2AFE /* Sources */,
+				BA3FC4001CB867BC009C2AFE /* Frameworks */,
+				BA3FC4011CB867BC009C2AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheBotanicalAssignment;
+			productName = TheBotanicalAssignment;
+			productReference = BA3FC4031CB867BC009C2AFE /* TheBotanicalAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA3FC3FB1CB867BC009C2AFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sahil Nokhwal";
+				TargetAttributes = {
+					BA3FC4021CB867BC009C2AFE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = BA3FC3FE1CB867BC009C2AFE /* Build configuration list for PBXProject "TheBotanicalAssignment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA3FC3FA1CB867BC009C2AFE;
+			productRefGroup = BA3FC4041CB867BC009C2AFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA3FC4021CB867BC009C2AFE /* TheBotanicalAssignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA3FC4011CB867BC009C2AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3FC4131CB867BC009C2AFE /* LaunchScreen.storyboard in Resources */,
+				BA3FC4101CB867BC009C2AFE /* Assets.xcassets in Resources */,
+				47E823D51CB8C0080030C0AC /* Rain-30.png in Resources */,
+				47E823D31CB8BFF10030C0AC /* Leaf-30.png in Resources */,
+				BA3FC40E1CB867BC009C2AFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA3FC3FF1CB867BC009C2AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3FC40B1CB867BC009C2AFE /* FernViewController.swift in Sources */,
+				BA3FC41F1CB868D6009C2AFE /* FernView.swift in Sources */,
+				BA3FC4271CB88D6D009C2AFE /* FernMaker.swift in Sources */,
+				BA3FC4071CB867BC009C2AFE /* AppDelegate.swift in Sources */,
+				BA3FC4091CB867BC009C2AFE /* RainViewController.swift in Sources */,
+				BA3FC4211CB86BA0009C2AFE /* SettingsViewController.swift in Sources */,
+				BA3FC4251CB87D42009C2AFE /* RainView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA3FC40C1CB867BC009C2AFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA3FC40D1CB867BC009C2AFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA3FC4111CB867BC009C2AFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA3FC4121CB867BC009C2AFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA3FC4151CB867BC009C2AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA3FC4161CB867BC009C2AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA3FC4181CB867BC009C2AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TheBotanicalAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NWMSU.TheBotanicalAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA3FC4191CB867BC009C2AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TheBotanicalAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NWMSU.TheBotanicalAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA3FC3FE1CB867BC009C2AFE /* Build configuration list for PBXProject "TheBotanicalAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3FC4151CB867BC009C2AFE /* Debug */,
+				BA3FC4161CB867BC009C2AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA3FC4171CB867BC009C2AFE /* Build configuration list for PBXNativeTarget "TheBotanicalAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3FC4181CB867BC009C2AFE /* Debug */,
+				BA3FC4191CB867BC009C2AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA3FC3FB1CB867BC009C2AFE /* Project object */;
+}
